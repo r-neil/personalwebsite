@@ -1,0 +1,182 @@
+@import url(/css/font/SanFranciscoFont/usesf.css);
+
+html, body {
+  	margin:0;
+	padding:0;
+}
+p, h1, ul{
+	font-family: 'San Francisco Text', sans-serif;
+	font-weight: 300;
+}
+p,ul{
+	text-align: left;
+}
+
+/* Header Section*/
+section#header
+{
+	height: 50px;
+}
+.header-wrapper{
+	width: 40%;
+	height: 100%;
+	margin-right: auto;
+	margin-left:auto;
+}
+.icon-bar{
+	height: 100%;
+	float:right;
+}
+img.nr-banner{
+	height:50px;
+	float: left;
+}
+
+img.icon{
+	display: block;
+	height:25px;
+	padding-top: 8%;
+	padding-right: 10px;
+	float: right;
+}
+/*Banner Section*/
+section#banner
+{
+	height: 450px;
+	overflow: hidden;
+	position: relative;
+}
+section#banner-2
+{
+	display:inline-block;
+	overflow: hidden;
+	position: relative;
+}
+
+img.banner
+{
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: -20%;
+}
+
+.caption{
+	position: absolute;
+	bottom: 10px;
+	right: 0px;
+	background: rgba(0, 0, 0, .4);
+	z-index: 1;
+	padding: 1em;
+	font-size: 1rem;
+	width: 250px;
+	color: white;
+}
+
+/*Content Section */
+section#content
+{
+	width: 100%;
+	text-align: center;
+}
+
+/*left Bio*/
+.wrapper-left{
+	float:left;
+	width: 25%;	
+}
+#right-bio{
+	float: right;
+	width: 30%;
+}
+
+img.bio{
+	width: 100%;
+	border-radius: 20%;
+	padding-top:30px;
+}
+p.bio{
+	width: 100%;
+	font-weight: 500;
+	font-size: 12px;
+}
+
+/*right Content */
+.wrapper-right{
+	float: left;
+	width:60%;
+}
+
+/*Content*/
+.wrapper-project{
+	width: 60%;
+	display:inline-block;
+}
+h1.title{
+	text-align: center;
+	font-weight: 800;
+	color:#419AFF;
+}
+
+/*About Content*/
+.wrapper-about{
+	padding-left: 100px;
+	padding-bottom: 100px;
+}
+
+/*Project Content-Right*/
+.wrapper-project-right{
+	float:left;
+	width:60%;
+}
+p.title{
+	text-align: center;
+	font-weight: 800;
+	margin-top: 5px;
+}
+img.PR-Icon{
+	border-radius: 15px;
+	width: 75px;
+	height: 75px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+/*Project Content-Left*/
+.wrapper-project-left{
+	float:left;
+	width:40%;
+}
+img.iphone{
+	width:60%;
+	display: block;
+	margin-right:auto;
+	margin-left: auto;
+	padding-bottom: 100px;
+}
+img.macbook{
+	width: 100%;
+	display: block;
+	margin-right:auto;
+	margin-left: auto;
+	padding-bottom: 100px;
+}
+
+/*Footer Section*/
+section#footer
+{
+	clear: both;
+	height: 100px;
+}
+.footer-wrapper{
+	width: 40%;
+	height: 100%;
+	margin-right: auto;
+	margin-left:auto;
+}
+img.copyright{
+	height:25px;
+	float: left;
+	padding-top: 10px;
+}
